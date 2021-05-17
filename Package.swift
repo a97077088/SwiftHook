@@ -3,7 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftHook",
-    path: "SwiftHook",
     platforms: [
        .iOS(.v12),
        .macOS(.v10_13),
