@@ -13,8 +13,7 @@ let package = Package(
         .library(name: "SwiftHook", targets: ["SwiftHook"]),
     ],
     targets: [
-        .target(name: "SuperBuilder"),
-        .target(name: "SwiftHook", dependencies: ["SuperBuilder"]),
+        .target(name: "SwiftHook"),
         .testTarget(name: "SwiftHookTests", dependencies: ["SwiftHook"]),
     ]
 )
